@@ -151,6 +151,11 @@ color:#370071;
 .projectContent p {
     padding: 15px 50px;
 }
+
+#aboutMe p {
+        padding: 15px 50px;
+}
+
 .circle p {
     padding: 0px;
 }
