@@ -1,0 +1,371 @@
+* {
+    margin: 0px;
+}
+
+.main {
+    padding: 15px;
+    text-align: center;
+}
+
+body {
+    background-color: #ececec;
+    color: #414141;
+}
+
+nav {
+    background-color: #f3f3f3;
+    padding: 20px 30px 20px 30px;
+}
+
+footer {
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid-container {
+    background-color: #ececec;
+}
+
+a {
+    color: #414141;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #704098;
+}
+
+label {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+}
+
+/* Button Styling */
+
+button {
+    color: #F4F4F4;
+    background-color: #fd496c;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F4F4F4;
+    color: #fd496c;
+    /* transform: scale(1.05); */
+    transition-duration: .5s;
+}
+
+button.circle {
+    height: 50px;
+    width: 50px;
+    background-color: #704098;
+    color: #f4f4f4;
+}
+
+button.circle:hover {
+    background-color: #370071;
+    color: #F4F4F4;
+}
+
+.circle {
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.circle p {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* End Button Styling */
+
+.dark {
+    background-color: #313131;
+    color: #F4F4F4;
+    box-shadow: 0px 5px 4px #202020 inset, 0px -5px 4px #202020 inset;
+   /* font-weight: /* add 100 greater weight version of Questrial */
+}
+
+.dark a {
+    color: #F4F4F4;
+}
+
+.darker {
+    background-color: #0E0E0E;
+    color: #F4F4F4;
+}
+
+.projectContent a {
+    color:#704098;
+}
+
+.projectContent a:hover {
+color:#370071;
+}
+
+.flexCenter {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* LEGACY VER
+.projectContent {
+    background-color: #F4F4F4;
+    color: #313131;
+    border-radius: 15px;
+    padding: 30px 50px;
+    margin: 10px auto;
+    max-width: 75rem;
+} */
+
+.projectContent {
+    background-color: #DADADA;
+    color: #313131;
+    margin: auto;
+    max-width: 75rem;
+}
+.projectContent h3 {
+    padding: 30px 50px 0px 50px;
+}
+.projectContent p {
+    padding: 15px 50px;
+}
+.circle p {
+    padding: 0px;
+}
+
+.test {
+    background-color:#fd496c;
+    height: 400px;
+}
+
+.filler {
+    height: 10px;
+}
+
+.padVert {
+    padding: 30px 0px;
+}
+
+.padBot {
+    padding: 0px 0px 30px 0px;
+}
+
+.sideBordersLarge {
+    border-left: 1px solid #F4F4F4;
+    border-right: 1px solid #F4F4F4;
+}
+
+.leftBorderLarge {
+    border-left: 1px solid #F4F4F4;
+}
+
+.leftAlign {
+    text-align: left;
+}
+
+.sixtyPercent {
+    width: 60%;
+}
+
+.portfolio {
+    width: 85%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 3px solid #704098;
+
+}
+.portfolio:hover {
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(105%);
+    transition-duration: 0.5s;
+    border: 3px solid #370071;
+}
+
+.subPortfolio {
+    width: 85%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.subPortfolio:hover {
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(105%);
+    transition-duration: 0.5s;
+}
+
+.gallery {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    border: 3px solid #704098;
+}
+
+.banner {
+    width: 100%
+}
+
+/* Nav Stuff */
+
+nav {
+    padding: 0px;
+    background-color: #704098; /*OLD: #00ab84; */
+    color: #FAFAFA;
+}
+
+.navLogo {
+    width: 62px;
+    padding: 6px 6px 6px 0px;
+    margin: 0px 10px;
+}
+
+.navLogo:hover {
+    mix-blend-mode: screen; /* not working as intended- maybe change image file on hover instead? */
+}
+
+.title {
+    font-family: 'Questrial', sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+.title:hover {
+    color: #0e0e0e;
+    transition-duration: .25s;
+}
+
+.navList {
+    list-style-type: none;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 85px;
+}
+
+/* Need to make li blocks fill whole of parent vertically */
+.navList li {
+    padding: 25px 15px;
+    border-style: solid;
+    border-width: 0px 0px 0px 2px;
+    border-color: #370071;
+    margin: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    /* Need to add height fix */
+}
+
+.navList li a {
+    color: #FAFAFA;
+    padding: 20px 0px;
+}
+
+.navList li:hover {
+    color: #0e0e0e;
+    background-color: #370071;
+    transition-duration: .25s;
+}
+
+.noBorder {
+    border-width: 0px !important;
+}
+
+.smallPad {
+    padding: 0px;
+}
+
+/* clearFix stuff - no longer necessary
+div.clearFix {
+    padding: 0px;
+    margin: 0px;
+}
+
+.clearFix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+*/
+
+/* Script Stuff */
+
+#projectOne {
+    display: none;
+}
+
+#projectTwo {
+    display: none;
+}
+
+#projectThree {
+    display: none;
+}
+
+#projectFour {
+    display: none;
+}
+
+#projectFive {
+    display: none;
+}
+
+#projectSix {
+    display: none;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width:1023px) {
+    .sideBordersLarge {
+        border-left: none;
+        border-right: none;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .smallPad {
+        padding: 20px 0px;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .padVert {
+        padding: 0px;
+    }
+}

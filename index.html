@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+</head>
+
+<header>
+    <!-- Build responsive nav here -->
+    <nav>
+        <div> <!-- Remove links on mobile? They feel kind of pointless -->
+             <ul class="navList">
+                 <li class="noBorder">
+                     <a href="">JUSTIN WILTSE</a>
+                 </li>
+                 <li>
+                     <a href="#aboutMe">About Me</a>
+                 </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="grid-container padVert">
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 large-4 cell smallPad">
+                <a onclick="expandProjectOne()" id="portOne"><img class="portfolio" src="img/bataFlatsPort.png"></a>
+            </div>
+            <div class="small-12 large-4 cell smallPad">
+                <a onclick="expandProjectTwo()" id="portTwo"><img class="portfolio" src="img/mancelonaCover-01.png"></a>
+            </div>
+            <div class="small-12 large-4 cell smallPad">
+                <a onclick="expandProjectThree()" id="portThree"><img class="portfolio" src="img/kcLogoWeb.png"></a>
+            </div>
+        </div>
+    </div>
+    <div>
+    <div class="grid-x grid-padding-x dark" id="projectOne">
+        <div class="small-12 large-12 cell">
+            <div class="projectContent">
+                <h3>BATA/The Flats Signage</h3>
+                <img src="">
+                <p>This project entailed designing a monument sign for a new development next to the BATA building in Traverse City. As BATA was involved in the development, the sign was to be made in a style mimicking their monument sign, with adjustments to account for the involvement of additional businesses. These adjustments are primarily seen in height and coloration, but still pull from the same original basis.</p>
+                <p>I later took on designing ADA compliant signage for the building's interiors as well, utilizing the same design cues.</p>
+                <div class="grid-container padVert projectContent">
+                    <div class="grid-x grid-padding-x">
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/theFlatsSamples-01.png">
+                        </div>
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/theFlatsSamples-02.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="flexCenter">
+                    <button class="circle" onclick="closeProject()">
+                        <p>&#10005;</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-x grid-padding-x dark" id="projectTwo">
+        <div class="small-12 large-12 cell">
+            <div class="projectContent">
+                <h3>Mancelona Public Schools Wayfinding</h3>
+                <img src="img/mancelonaSamplesV1-01.png" class="banner">
+                <p>Image360 was approached by a nearby school district to design and fabricate wayfinding signage for their 3 schools. After presenting a variety of options, Mancelona's schools opted to pursue this direction. Numerous changes had to be made in order to account for budget, resulting in a change to a post and panel style sign with the same overall design scheme.</p>
+                <div class="grid-container padVert projectContent">
+                    <div class="grid-x grid-padding-x">
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/mancelonaSamplesV1-02.png">
+                        </div>
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/mancelonaSamplesV1-03.png">
+                        </div>
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/mancelonaSamplesV1-04.png">
+                        </div>
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/mancelonaSamplesV1-05.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="flexCenter"> 
+                    <button class="circle" onclick="closeProject()">
+                        <p>&#10005;</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-x grid-padding-x dark" id="projectThree">
+        <div class="small-12 large-12 cell">
+            <div class="projectContent">
+                <h3>King's Crown</h3>
+                <p>The goal of this exercise was to create a brand identity manual for a fictitious company in order to maintain a consistent design language. The company I created was King's Crown, a tabletop game maker. The first step in the process was to design a logo, of which I made over 50 different versions before refining into what is seen in the manual. From there, I decided upon colors and fonts, and then provided alternate formatting options for different use cases, which finally led to a cohesive brand as well as the instructions on how to properly utilize it.</p>
+                <p>Contained within are the logo and various formatting and color options for it, as well as acceptable fonts, website and signage mockups, examples of stationery, and examples of how not to use the logo. You can view the whole brand manual <a href="img/KCFullManual.pdf">here.</a></p>
+                <img class="gallery" src="img/webMainKC-01.png">
+                <div class="flexCenter">
+                    <button class="circle" onclick="closeProject()">
+                        <p>&#10005;</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container padVert">
+        <div class="grid-x grid-padding-x padBot">
+            <div class="small-12 large-4 cell smallPad">
+                <a onclick="expandProjectFour()" id="portFour"><img class="portfolio" src="img/gliksMensLogo.png"></a>
+            </div>
+            <div class="small-12 large-4 cell smallPad">
+                <a onclick="expandProjectFive()" id="portFive"><img class="portfolio" src="img/The Hair Shack Logo.png"></a>
+            </div>
+            <div class="small-12 large-4 cell smallPad">
+                <a onclick="expandProjectSix()" id="portSix"><img class="portfolio" src="img/tfm-02.png"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grid-x grid-padding-x dark" id="projectFour">
+        <div class="small-12 large-12 cell">
+            <div class="projectContent">
+                <h3>Glik's Mens Shop Traverse City</h3>
+                <img src="img/gliksMensShop-02.png" class="banner">
+                <p>This shop was purchased by Glik's with the intent of turning it into a men's clothing store. In order to renovate what existed into something befitting their brand, I studied the brand guidelines they supplied me with and participated in back-and-forth communication in regards to various options and design direction.</p>
+                <div class="grid-container padVert projectContent">
+                    <div class="grid-x grid-padding-x">
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/gliksMensSamples-01.png">
+                        </div>
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/gliksMensSamples-02.png">
+                        </div>
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/gliksMensSamples-03.png">
+                        </div>
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/gliksMensSamples-04.png">
+                        </div>
+                        <div class="small-12 large-12 cell padBot">
+                            <img class="subPortfolio" src="img/gliksMensShop-01.png">
+                        </div>
+                        <div class="small-12 large-12 cell padBot">
+                            <img class="subPortfolio" src="img/gliksMensShop-03.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="flexCenter">
+                    <button class="circle" onclick="closeProject()">
+                        <p>&#10005;</p>
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-x grid-padding-x dark" id="projectFive">
+        <div class="small-12 large-12 cell">
+            <div class="projectContent">
+                <h3>The Hair Shack</h3>
+                <img src="img/hairShack-02.png" class="banner">
+                <p>This was a joint project between the designers at Image360 to rebrand a local barber shop. We started by working on various logo iterations per the client's direction, and consolidated a grouping to propose. We also explored a variety of color options, with the client eventually landing on various shades of Pantone Cool Grays. From that point, I took over the entirety of the project to handle the actual signage design, both for the main sign and additional extra signage, so as to provide a cohesive direction.</p>
+                <div class="grid-container padVert projectContent">
+                    <div class="grid-x grid-padding-x">
+                        <div class="small-12 large-12 cell padBot">
+                            <img class="subPortfolio" src="img/hairShack-01.png">
+                        </div>
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/hairShack-03.png">
+                        </div>
+                        <div class="small-12 large-6 cell padBot">
+                            <img class="subPortfolio" src="img/hairShack-04.png">
+                        </div>
+                        <div class="small-12 large-12 cell smallPad">
+                            <img class="subPortfolio" src="img/hairShack-05.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="flexCenter">
+                    <button class="circle" onclick="closeProject()">
+                        <p>&#10005;</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-x grid-padding-x dark" id="projectSix">
+        <div class="small-12 large-12 cell">
+            <div class="projectContent">
+                <h3>Miscellaneous Projects</h3>
+                <p>Below are a variety of smaller scale projects that I've worked on, including logos, signage, and labels.</p>
+                <div class="grid-container padVert projectContent">
+                    <div class="grid-x grid-padding-x">
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/nashaway.png">
+                        </div>
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/BM.png">
+                        </div>
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/tfm-01.png">
+                        </div>
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/tfm-02.png">
+                        </div>
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/stakdLogo.png">
+                        </div>
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/dreamland.png">
+                        </div>
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/Caliente-06.png">
+                        </div>
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/CalienteLabel-07.png">
+                        </div>
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/CalienteLabel-08.png">
+                        </div>
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/CalienteLabel-09.png">
+                        </div>
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/thinktankLogoNarrow.png">
+                        </div>
+                        <div class="small-12 large-4 cell padBot">
+                            <img class="subPortfolio" src="img/YACTUS copy.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="flexCenter">
+                    <button class="circle" onclick="closeProject()">
+                        <p>&#10005;</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container padVert"></div>
+</body>
+
+<footer class="darker">
+    <div class="padVert">
+        <div class="darker grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="small-12 large-9 cell" id="aboutMe">
+                    <p>I am a graphic designer with experience in both web and production design. My skillset is varied, and I have experience with the entire Adobe suite, as well as Figma, and Cinema4D. I've spent time both as a developer and as a printer/production lead, which has led to a deep understanding of designs that are actually achievable.</p>
+                    <p>I graduated with my BFA in Graphic Design from Northern Michigan University at the age of 20 in 2019. From there, I spent time as a front-end web developer for World Trade Press. I eventually moved into the world of print, first working as a print production specialist at Britten, Inc. before becoming the print production lead at the Traverse City branch of Image360. My time in print quickly led to becoming the lead of the 2D production department, where I gathered hands-on experience in various signage- and graphics-related processes. Following my time on the prod floor, I've been moved to a design position, from which I also help with customer interaction.</p>
+                    <p>Outside of work, creative pursuits and the arts are my passions. I love spending time on drawing, as well as photography and baking. I find enjoyment in the small detail work of plastic model kits and in learning new processes and ways to create. Music is also something I'm passionate about, and I am an avid concert-goer. I also spend a lot of time with card and board games as social outlets.</p>
+                </div>
+                <div class="small-12 large-3 cell leftBorderLarge">
+                    <p>
+                        <a href="https://www.linkedin.com/in/justin-wiltse-b5454a1ba/" class="darker">linkedin</a>
+                    </p>
+                    <p>
+                        <a href="" class="darker">Resume</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function expandProjectOne() {
+            document.getElementById('projectOne').style.display='block';
+            document.getElementById('projectTwo').style.display='none';
+            document.getElementById('projectThree').style.display='none';
+            document.getElementById('projectFour').style.display='none';
+            document.getElementById('projectFive').style.display='none';
+            document.getElementById('projectSix').style.display='none';
+            if(window.innerWidth < 1023) {
+                document.getElementById('portOne').setAttribute('href', '#projectOne');
+            }
+        }
+        function expandProjectTwo() {
+            document.getElementById('projectOne').style.display='none';
+            document.getElementById('projectTwo').style.display='block';
+            document.getElementById('projectThree').style.display='none';
+            document.getElementById('projectFour').style.display='none';
+            document.getElementById('projectFive').style.display='none';
+            document.getElementById('projectSix').style.display='none';
+            if(window.innerWidth < 1023) {
+                document.getElementById('portTwo').setAttribute('href', '#projectTwo');
+            }
+        }
+        function expandProjectThree() {
+            document.getElementById('projectOne').style.display='none';
+            document.getElementById('projectTwo').style.display='none';
+            document.getElementById('projectThree').style.display='block';
+            document.getElementById('projectFour').style.display='none';
+            document.getElementById('projectFive').style.display='none';
+            document.getElementById('projectSix').style.display='none';
+            if(window.innerWidth < 1023) {
+                document.getElementById('portThree').setAttribute('href', '#projectThree');
+            }
+        }
+        function expandProjectFour() {
+            document.getElementById('projectOne').style.display='none';
+            document.getElementById('projectTwo').style.display='none';
+            document.getElementById('projectThree').style.display='none';
+            document.getElementById('projectFour').style.display='block';
+            document.getElementById('projectFive').style.display='none';
+            document.getElementById('projectSix').style.display='none';
+            if(window.innerWidth < 1023) {
+                document.getElementById('portFour').setAttribute('href', '#projectFour');
+            }
+        }
+        function expandProjectFive() {
+            document.getElementById('projectOne').style.display='none';
+            document.getElementById('projectTwo').style.display='none';
+            document.getElementById('projectThree').style.display='none';
+            document.getElementById('projectFour').style.display='none';
+            document.getElementById('projectFive').style.display='block';
+            document.getElementById('projectSix').style.display='none';
+            if(window.innerWidth < 1023) {
+                document.getElementById('portFive').setAttribute('href', '#projectFive');
+            }
+        }
+        function expandProjectSix() {
+            document.getElementById('projectOne').style.display='none';
+            document.getElementById('projectTwo').style.display='none';
+            document.getElementById('projectThree').style.display='none';
+            document.getElementById('projectFour').style.display='none';
+            document.getElementById('projectFive').style.display='none';
+            document.getElementById('projectSix').style.display='block';
+            if(window.innerWidth < 1023) {
+                document.getElementById('portSix').setAttribute('href', '#projectSix');
+            }
+        }
+        function closeProject() {
+            document.getElementById('projectOne').style.display='none';
+            document.getElementById('projectTwo').style.display='none';
+            document.getElementById('projectThree').style.display='none';
+            document.getElementById('projectFour').style.display='none';
+            document.getElementById('projectFive').style.display='none';
+            document.getElementById('projectSix').style.display='none';
+        }
+        // Functions carry over small media width properties to large width if clicked while small
+        // Collapse expandProject() into 1 function. Pass a string argument that is the element id, set display:none for everyhting, then set display:block on the paassed element
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <!-- Remove next link in final -->
+    <link rel="stylesheet" href="css/testing.css">
+    <!-- Below Calls to Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Our JS -->
+    <script src="/javascript/authenticate.js"></script>
+</footer>
